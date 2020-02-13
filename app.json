@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Expo Neumorphism",
+    "description": "neumorphism with expo",
+    "scheme": "exponeumorphism",
+    "slug": "exponeumorphism",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "version": "0.0.1",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "https://github.com/calebnance/expo-neumorphism",
+    "orientation": "portrait",
+    "primaryColor": "#55b9f3",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#55b9f3",
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 1
+    },
+    "ios": {
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  }
+}
