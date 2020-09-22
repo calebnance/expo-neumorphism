@@ -19,22 +19,22 @@ web demo: [Expo Neumorphism](https://expo-neumorphism.calebnance.now.sh)
 ## Table of Contents
 
 - [Install & Build](#install--build)
-- [Stats](#stats)
+- [Features](#features)
 - [Linting](#linting)
 - [Deploy to Zeit](#deploy-to-zeit)
 - [Release Notes](#release-notes)
 
 ## Install & Build
 
-Install: `yarn install`
+First, make sure you have Expo CLI installed: `npm install -g expo-cli`
 
-Expo CLI: `npm install -g expo-cli` (if not already installed)
+Install: `yarn` or `yarn install`
 
-Run Project Locally: `expo start`
+Run Project Locally: `yarn dev` or `yarn start`
 
-## Stats
+## Features
 
-- Expo SDK 38
+- Expo SDK 39
 - iOS, Android and PWA (Web App)
 - React Navigation v5
 - React Context
@@ -63,6 +63,7 @@ Run Project Locally: `expo start`
 
 ### version 0.0.1 (current)
 
+- upgraded to [Expo SDK 39](https://dev.to/expo/expo-sdk-39-is-now-available-1lm8)
 - upgraded to [Expo SDK 38](https://blog.expo.io/expo-sdk-38-is-now-available-ab6cd30ca2ee)
 - upgraded to [Expo SDK 37](https://blog.expo.io/expo-sdk-37-is-now-available-dd5770f066a6)
 - started on [Expo SDK 36](https://blog.expo.io/expo-sdk-36-is-now-available-b91897b437fe)
