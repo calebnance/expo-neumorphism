@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { TouchableOpacity } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { gStyle } from '../constants';
