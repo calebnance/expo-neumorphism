@@ -21,4 +21,4 @@ SvgDroplet.propTypes = {
   size: PropTypes.number
 };
 
-export default SvgDroplet;
+export default React.memo(SvgDroplet);
