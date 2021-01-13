@@ -14,7 +14,7 @@ const SelectColor = ({ navigation }) => (
     {({ color }) => (
       <View style={styles.container}>
         <View style={styles.containerSelect}>
-          {Object.keys(colorOptions).map(key => (
+          {Object.keys(colorOptions).map((key) => (
             <LineItemColor
               active={color === key}
               key={key}
