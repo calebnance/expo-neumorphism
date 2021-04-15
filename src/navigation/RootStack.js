@@ -11,25 +11,23 @@ import SelectColor from '../screens/SelectColor';
 // create navigation stack
 const RootStack = createStackNavigator();
 
-function RootStackScreen() {
-  return (
-    <NavigationContainer>
-      <RootStack.Navigator mode="modal">
-        <RootStack.Screen
-          name="Main"
-          component={MainStackScreen}
-          options={{ headerShown: false }}
-        />
-        <RootStack.Screen
-          name="SelectColor"
-          component={SelectColor}
-          options={{
-            title: 'Select color'
-          }}
-        />
-      </RootStack.Navigator>
-    </NavigationContainer>
-  );
-}
+const RootStackScreen = () => (
+  <NavigationContainer>
+    <RootStack.Navigator mode="modal">
+      <RootStack.Screen
+        name="Main"
+        component={MainStackScreen}
+        options={{ headerShown: false }}
+      />
+      <RootStack.Screen
+        name="SelectColor"
+        component={SelectColor}
+        options={{
+          title: 'Select color'
+        }}
+      />
+    </RootStack.Navigator>
+  </NavigationContainer>
+);
 
 export default RootStackScreen;

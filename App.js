@@ -7,9 +7,9 @@ import RootStack from './src/navigation/RootStack';
 // context
 import { colorOptions, ColorContext } from './src/context/ColorContext';
 
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
+class App extends React.Component {
+  constructor() {
+    super();
 
     const defaultColor = 'pictonBlue';
 
@@ -39,3 +39,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App;

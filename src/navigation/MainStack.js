@@ -12,27 +12,25 @@ import SvgDroplet from '../icons/Svg.Droplet';
 // create navigation stack
 const MainStack = createStackNavigator();
 
-function MainStackScreen() {
-  return (
-    <MainStack.Navigator>
-      <MainStack.Screen
-        name="Home"
-        component={Home}
-        options={({ navigation }) => ({
-          title: 'Neumorphism',
-          headerRight: () => (
-            <TouchableOpacity
-              activeOpacity={gStyle.activeOpacity}
-              onPress={() => navigation.navigate('SelectColor')}
-              style={gStyle.pR2}
-            >
-              <SvgDroplet />
-            </TouchableOpacity>
-          )
-        })}
-      />
-    </MainStack.Navigator>
-  );
-}
+const MainStackScreen = () => (
+  <MainStack.Navigator>
+    <MainStack.Screen
+      name="Home"
+      component={Home}
+      options={({ navigation }) => ({
+        title: 'Neumorphism',
+        headerRight: () => (
+          <TouchableOpacity
+            activeOpacity={gStyle.activeOpacity}
+            onPress={() => navigation.navigate('SelectColor')}
+            style={gStyle.pR2}
+          >
+            <SvgDroplet />
+          </TouchableOpacity>
+        )
+      })}
+    />
+  </MainStack.Navigator>
+);
 
 export default MainStackScreen;
