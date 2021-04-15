@@ -26,6 +26,14 @@ class Home extends React.Component {
     this.pressedOff = this.pressedOff.bind(this);
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.showLinear === true) {
+      this.setState({
+        showLinear: false
+      });
+    }
+  }
+
   simple() {
     this.setState({
       showLinear: false
@@ -73,6 +81,7 @@ class Home extends React.Component {
           >
             <Text style={styles.btnText}>Simple</Text>
           </TouchableOpacity>
+
           <TouchableOpacity
             activeOpacity={gStyle.activeOpacity}
             onPress={this.pressedOn}
@@ -80,6 +89,7 @@ class Home extends React.Component {
           >
             <Text style={styles.btnText}>On</Text>
           </TouchableOpacity>
+
           <TouchableOpacity
             activeOpacity={gStyle.activeOpacity}
             onPress={this.pressedOff}
