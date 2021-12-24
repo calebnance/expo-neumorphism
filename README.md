@@ -36,7 +36,7 @@ Run Project Locally: `yarn dev` or `yarn start`
 
 - Expo SDK 42
 - iOS, Android and PWA (Web App)
-- React Navigation v5
+- React Navigation v6
 - React Context
 - PropTypes
 
@@ -63,6 +63,7 @@ Run Project Locally: `yarn dev` or `yarn start`
 
 ### version 0.0.1 (current)
 
+- upgraded to [React Navigation v6](https://reactnavigation.org/docs/getting-started)
 - upgraded to [Expo SDK 42](https://blog.expo.io/expo-sdk-42-579aee2348b6)
 - upgraded to [Expo SDK 41](https://blog.expo.io/expo-sdk-41-12cc5232f2ef)
 - upgraded to [Expo SDK 40](https://blog.expo.io/expo-sdk-40-is-now-available-d4d73e67da33)
@@ -70,5 +71,5 @@ Run Project Locally: `yarn dev` or `yarn start`
 - upgraded to [Expo SDK 38](https://blog.expo.io/expo-sdk-38-is-now-available-ab6cd30ca2ee)
 - upgraded to [Expo SDK 37](https://blog.expo.io/expo-sdk-37-is-now-available-dd5770f066a6)
 - started on [Expo SDK 36](https://blog.expo.io/expo-sdk-36-is-now-available-b91897b437fe)
-- started with [React Navigation v5](https://reactnavigation.org/docs/en/getting-started.html)
+- started with [React Navigation v5](https://reactnavigation.org/docs/5.x/getting-started)
 - using [expo-linear-gradient](https://docs.expo.io/versions/latest/sdk/linear-gradient/)
